@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Common Styles */
+h1 { font-size: 30px, bold;}
+h2 { font-size: 24px;}
+h3 { font-size: 22px;}
+h4 { font-size: 20px;}
+h5 { font-size: 18px;}
+
+text {
+    font-color:  #9f9b9b;
+}
+
+text1 {
+    font-color: #01161E;
+}
+
+font{
+     
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Logo and Navbar to Flex*/
+logo {
+    display: flex;
+    height: 64px;
+    align-items: flex-start;
+    color: #9f9b9b;
+
+}
+
+.logotext{
+        
+        text-align: left;
+    
+}
+
+
+
+logo a {
+    color: #01161E
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: black;
+    padding: 0px 10px;
+}
+
+
+.pic1 {
+    width: 60%;
+}
+
+.pic1text {
+    width: 40%;
+}
+
+.pic1text{
+
+    display: flex;
+
+}
+
+.pic1text div {
+    background-color:#c4c2c2;
+    
+}
+
+/* Black button */
+.button5 {background-color: #555555;} 
+
+/*Different courses*/
+
+.courses-section {
+    text-align: center;
+    margin: auto;
+}
+
+.courses-section-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.courses-section-image img {
+    padding: 32px;
+}
+
+.flex-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          background-color: #c4c2c2;
+          height: 800px;
+          align-items: center;
+}
+
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    height: 75px;
+    flex-basis: 200px;
+  }
+
+  .width1200 {
+    width: 1200px;
+}
+
+.paddingHeading {
+    padding: 60px;
+}
+
+
+
+header {
+    text-align: left;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
